@@ -76,7 +76,7 @@ export default [
     component: require('./assets/vue/pages/home.vue')
   },
   {
-    path: '/user/blog/edit/',
-    component: require('./assets/vue/pages/home.vue')
+    path: '/user/blog/write/',
+    component: require('./assets/vue/pages/writeblog.vue')
   }
 ]

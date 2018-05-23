@@ -22,6 +22,9 @@
             <f7-list-item link="/latest/" title="Latest" panel-close>
               <f7-icon slot="media" icon="fa fa-info fa-fw"></f7-icon>
             </f7-list-item>
+            <f7-list-item link="/user/blog/write/" title="Write blog" panel-close>
+                <f7-icon slot="media" icon="fa fa-info fa-fw"></f7-icon>
+            </f7-list-item>
             <f7-list-item link="/form/" title="Form" panel-close>
                 <f7-icon slot="media" icon="fa fa-vcard-o fa-fw"></f7-icon>
             </f7-list-item>

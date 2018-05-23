@@ -2,14 +2,15 @@
 <widget id="com.laoyou365.www" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="android-minSdkVersion" value="16" />
     <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xFFFFFFFF" />
     <hook src="hooks/hookers.js" type="before_prepare" />
     <hook src="hooks/beforedep.js" type="before_deploy" />
-    <name>laoyou365</name>
+    <name>老友之家</name>
     <description>
-        Brand new cordova project!
+        老友之家，中老年人的美好生活新家园！
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="yuanbosdu@163.com" href="http://www.laoyou365.com">
+        LaoYou Team
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
@@ -21,6 +22,14 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
+        <splash density="land-hdpi" src="res/screen/android/splash-land-hdpi.png" />
+        <splash density="land-ldpi" src="res/screen/android/splash-land-ldpi.png" />
+        <splash density="land-mdpi" src="res/screen/android/splash-land-mdpi.png" />
+        <splash density="land-xhdpi" src="res/screen/android/splash-land-xhdpi.png" />
+        <splash density="port-hdpi" src="res/screen/android/splash-port-hdpi.png" />
+        <splash density="port-ldpi" src="res/screen/android/splash-port-ldpi.png" />
+        <splash density="port-mdpi" src="res/screen/android/splash-port-mdpi.png" />
+        <splash density="port-xhdpi" src="res/screen/android/splash-port-xhdpi.png" />
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
@@ -29,6 +38,9 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <allow-navigation href="*" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
+    <plugin name="cordova-plugin-camera" spec="^4.0.3" />
+    <plugin name="cordova-plugin-x-toast" spec="^2.6.2" />
     <engine name="browser" spec="^5.0.3" />
     <engine name="android" spec="^7.0.0" />
 </widget>
