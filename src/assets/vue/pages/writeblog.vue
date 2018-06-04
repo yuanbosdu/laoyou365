@@ -2,7 +2,7 @@
   <f7-page>
     <f7-navbar title='发布文章' back-link='Back' sliding></f7-navbar>
     <f7-block>
-      <f7-input type="textarea" name='blog' placeholder="主人请写点什么吧"
+      <f7-input type="textarea" name='blog' placeholder="主人请写点什么吧" inputStyle="width: 100%"
         id="blog" :value="blog_data" @input="blog_data = $event.target.value" autofocus>
       </f7-input>
     </f7-block>
@@ -34,7 +34,7 @@ export default {
         self.src_photo.push(imageURI);
       }
       function onFail(message) {
-        self.src_photo = message;
+        console.log(message);
       }
       const camera_param = {
         destinationType: 1, //URL 0, URI 1

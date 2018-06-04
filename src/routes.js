@@ -56,8 +56,8 @@ export default [
     component: require('./assets/vue/pages/home.vue')
   },
   {
-    path: '/user/info/',
-    component: require('./assets/vue/pages/home.vue')
+    path: '/user/detail/',
+    component: require('./assets/vue/pages/user/detail.vue')
   },
   {
     path: '/user/info/edit',

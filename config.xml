@@ -7,7 +7,7 @@
     <hook src="hooks/beforedep.js" type="before_deploy" />
     <name>老友之家</name>
     <description>
-        老友之家，中老年人的美好生活新家园！
+        老友之家，中老年朋友的美好生活新家园！
     </description>
     <author email="yuanbosdu@163.com" href="http://www.laoyou365.com">
         LaoYou Team
@@ -30,6 +30,12 @@
         <splash density="port-ldpi" src="res/screen/android/splash-port-ldpi.png" />
         <splash density="port-mdpi" src="res/screen/android/splash-port-mdpi.png" />
         <splash density="port-xhdpi" src="res/screen/android/splash-port-xhdpi.png" />
+        <icon density="ldpi" src="res/android/drawable-ldpi/ic_launcher.png" />
+        <icon density="mdpi" src="res/android/drawable-mdpi/ic_launcher.png" />
+        <icon density="hdpi" src="res/android/drawable-hdpi/ic_launcher.png" />
+        <icon density="xhdpi" src="res/android/drawable-xhdpi/ic_launcher.png" />
+        <icon density="xxhdpi" src="res/android/drawable-xxhdpi/ic_launcher.png" />
+        <icon density="xxxhdpi" src="res/android/drawable-xxxhdpi/ic_launcher.png" />
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
@@ -41,6 +47,7 @@
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <plugin name="cordova-plugin-camera" spec="^4.0.3" />
     <plugin name="cordova-plugin-x-toast" spec="^2.6.2" />
+    <plugin name="cordova-plugin-device" spec="^2.0.2" />
     <engine name="browser" spec="^5.0.3" />
     <engine name="android" spec="^7.0.0" />
 </widget>

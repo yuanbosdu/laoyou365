@@ -54,7 +54,7 @@
 export default {
   created() {
     console.log("home created");
-    this.$f7.root.addClass('color-theme-green');
+    this.$f7.root.addClass('color-theme-red');
   }
 };
 

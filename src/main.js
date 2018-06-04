@@ -27,6 +27,7 @@ import routes from './routes.js'
 
 // Import Vuex Storage
 import store from './assets/vuex/storage.js'
+import custom from './assets/js/custom.js'
 
 // Install Plugin
 Vue.use(Framework7Vue, Framework7);
