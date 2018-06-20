@@ -22,6 +22,12 @@
       </f7-list-item>
     </f7-list>
 
+    <f7-list class='list'>
+      <f7-list-item title='设置' link='/user/info/setting'>
+        <i class='f7-icons' slot='media'>compose</i>
+      </f7-list-item>
+    </f7-list>
+
     <f7-button color="red" big big-ios big-md fill fill-ios fill-md>退出登录</f7-button>
 
   </f7-page>
