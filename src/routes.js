@@ -64,6 +64,10 @@ export default [
     component: require('./assets/vue/pages/user/setting.vue')
   },
   {
+    path: '/user/info/changepasswd',
+    component: require('./assets/vue/pages/user/change_passwd.vue')
+  },
+  {
     path: '/user/message/list/:mType/',
     component: require('./assets/vue/pages/home.vue')
   },
