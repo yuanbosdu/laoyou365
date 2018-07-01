@@ -29,8 +29,13 @@ import routes from './routes.js'
 import store from './assets/vuex/storage.js'
 import custom from './assets/js/custom.js'
 
+// Import axios
+import axios from 'axios'
+
 // Install Plugin
 Vue.use(Framework7Vue, Framework7);
+// Install axios
+Vue.prototype.$ajax = axios
 
 let theme = 'auto';
 if (document.location.search.indexOf('theme=') >= 0) {
