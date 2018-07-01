@@ -36,6 +36,10 @@ import axios from 'axios'
 Vue.use(Framework7Vue, Framework7);
 // Install axios
 Vue.prototype.$ajax = axios
+axios.defaults.baseURL = 'http://127.0.0.1:8000'
+// axios.defaults.headers.common['Authorization']
+// axios.defaults.headers.post['Content-Type']
+
 
 let theme = 'auto';
 if (document.location.search.indexOf('theme=') >= 0) {

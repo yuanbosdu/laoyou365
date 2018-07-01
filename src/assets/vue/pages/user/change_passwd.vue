@@ -29,6 +29,7 @@
 }
 </style>
 <script>
+import qs from 'qs';
 export default {
   data() {
     return {
@@ -56,6 +57,20 @@ export default {
         this.err_message = '新密码输入不一致';
         return;
       }
+      this.err_message = '';  // clear the err_message
+      var instance = this.$ajax.create({
+        headers: {
+          'content-type': 'application/x-www-form-urlencoded'
+        }
+      });
+      let reqParams = {
+        o_passwd: this.old_passwd,
+        n_passwd: this.new_passwd,
+        n_passwd2: this.new_passwd2,
+      }
+      instance.post('/laoyou/api/userinfo/changepasswd/', qs.stringify(reqParams)).then(function(response) {
+        console.log(response);
+      });
     }
 
   },
