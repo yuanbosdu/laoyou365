@@ -67,8 +67,8 @@
             "cordova-plugin-device": {}
         },
         "platforms": [
-            "browser",
-            "android"
+            "android",
+            "browser"
         ]
     }
 }
