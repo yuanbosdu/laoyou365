@@ -8,8 +8,8 @@ export default [
     component: require('./assets/vue/pages/about.vue')
   },
   {
-    path: '/form/',
-    component: require('./assets/vue/pages/form.vue')
+    path: '/community/list/',
+    component: require('./assets/vue/pages/community/community_list.vue')
   },
   {
     path: '/dynamic-route/blog/:blogId/post/:postId/',
@@ -32,8 +32,8 @@ export default [
     component: require('./assets/vue/pages/vuex.vue')
   },
   {
-    path: '/latest/',
-    component: require('./assets/vue/pages/latest.vue')
+    path: '/commend/',
+    component: require('./assets/vue/pages/commend.vue')
   },
   {
     path: '/detail/:groupId/:postId/',

@@ -19,7 +19,7 @@
             <f7-list-item link="/about/" title="About" panel-close>
                 <f7-icon slot="media" icon="fa fa-info fa-fw"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="/latest/" title="Latest" panel-close>
+            <f7-list-item link="/commend/" title="推荐" panel-close>
               <f7-icon slot="media" icon="fa fa-info fa-fw"></f7-icon>
             </f7-list-item>
             <f7-list-item link="/user/blog/write/" title="Write blog" panel-close>

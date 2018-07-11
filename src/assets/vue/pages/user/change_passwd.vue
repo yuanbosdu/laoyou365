@@ -67,7 +67,7 @@ export default {
         o_passwd: this.old_passwd,
         n_passwd: this.new_passwd,
         n_passwd2: this.new_passwd2,
-      }
+      };
       instance.post('/laoyou/api/userinfo/changepasswd/', qs.stringify(reqParams)).then(function(response) {
         console.log(response);
       });
