@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "老友之家",
+  "short_name": "老友之家",
+  "version": "com.laoyou365.www",
+  "description": "老友之家，中老年朋友的美好生活新家园！",
+  "author": "LaoYou Team",
+  "icons": [],
+  "start_url": "index.html"
+}
