@@ -7,19 +7,19 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.laoyou365.www"
+    },
+    "cordova-plugin-device": {
       "PACKAGE_NAME": "com.laoyou365.www"
     },
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "com.laoyou365.www"
     },
-    "cordova-plugin-camera": {
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.laoyou365.www"
     },
     "cordova-plugin-x-toast": {
-      "PACKAGE_NAME": "com.laoyou365.www"
-    },
-    "cordova-plugin-device": {
       "PACKAGE_NAME": "com.laoyou365.www"
     }
   },

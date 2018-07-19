@@ -12,6 +12,26 @@ export default [
     component: require('./assets/vue/pages/community/community_list.vue')
   },
   {
+    path: '/community/detail/',
+    component: require('./assets/vue/pages/community/community_detail.vue')
+  },
+  {
+    path: '/community/topic/list/',
+    component: require('./assets/vue/pages/community/topic_list.vue')
+  },
+  {
+    path: '/community/topic/detail/',
+    component: require('./assets/vue/pages/community/topic_detail.vue')
+  },
+  {
+    path: '/community/topic/blog/list/',
+    component: require('./assets/vue/pages/community/blog_list.vue')
+  },
+  {
+    path: '/community/topic/blog/detail/',
+    component: require('./assets/vue/pages/community/blog_detail.vue')
+  },
+  {
     path: '/dynamic-route/blog/:blogId/post/:postId/',
     component: require('./assets/vue/pages/dynamic-route.vue')
   },

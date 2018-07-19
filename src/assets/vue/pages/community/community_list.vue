@@ -25,6 +25,8 @@
         <img slot="media" src="" width="44" />
       </f7-list-item>
     </f7-list>
+
+    <f7-button big color="red" href="/community/topic/list/">topic list</f7-button>
   </f7-page>
 </template>
 <style scoped>
