@@ -1,6 +1,6 @@
 <template>
   <f7-page>
-    <f7-navbar>
+    <f7-navbar back-link="Back">
       <f7-nav-left></f7-nav-left>
       <f7-nav-title>Topic</f7-nav-title>
       <f7-nav-right></f7-nav-right>
@@ -26,7 +26,7 @@ export default {
 
   },
   computed: {
-    
+
   }
 }
 </script>
